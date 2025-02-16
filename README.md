@@ -98,17 +98,7 @@ The `scripts` folder contains **shell scripts (`.sh` files)** for **defining mod
 
 - `Conv2DLSTM.sh` → contains parameters of the **Conv2DLSTM model** for training and evaluation.
 
-
-
-### 🔹 **Usage**
-- These scripts allow **quick execution** of experiments without modifying the Python files.
-- Simply **run the scripts** in a terminal using:
-  ```bash
-  bash run_experiment.sh
-
-
----
-# 🚀 How to Set Up and Run the Models
+## Requirements and Running
 
 Follow these steps to set up and run the Models.
 
