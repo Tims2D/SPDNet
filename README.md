@@ -41,8 +41,6 @@ The **`models`** folder contains various deep learning architectures used in thi
 
 The **output** of each model is passed to `exp/exp_forecasting.py` for **training, validation, and evaluation**.
 
----
-
 ### **Implemented Models**
 SPDNet is benchmarked against various **traditional, advanced, and state-of-the-art** forecasting models:
 
@@ -73,17 +71,19 @@ SPDNet is benchmarked against various **traditional, advanced, and state-of-the-
   - **Extracts dominant periods** using the **Periodical Decomposition Module (PDM)**.
   - **Combines Conv1D, Conv2D, and Transformer Encoder** to capture short-term, intra-period, and global dependencies.
 
----
-
 ## 🛠 How Models Work
 1. **Each model processes the input time series** and outputs forecasted electricity demand.
 2. **The outputs are then passed to** `exp/exp_forecasting.py` for training, validation, and evaluation.
 3. **The best-performing model is selected based on MSE and MAE metrics**.
 
 ---
-
-🔜 **Next: Training and Evaluation Scripts**
-We now move to the `utils` folder, which provides essential tools for **data processing, metrics calculation, and visualization**.
+## 📂 Layers
+The `layers` folder contains essential modules that serve as **building blocks** for the models in this study.For example:
+- These modules are **imported into the models** for efficient time series forecasting.
+- `Conv_Blocks.py` → Called in the **TimesNet** model to process **2D tensors**.
+- `Transformer_EncDec.py` → Consists of **encoder-decoder** architecture for transformer-based models.
+- `Attention.py` → Defines **multi-head attention** mechanisms used in transformer-based models.
+- `PositionalEncoding.py` → Provides **time encoding** to preserve the temporal order in forecasting models.
 
 
 
