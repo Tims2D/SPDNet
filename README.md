@@ -116,28 +116,28 @@ After setting up the virtual environment, install the necessary libraries using:
 pip install -r requirements.txt
 
 ## 🔹 **3. Run the Models**
+
 After installing the required libraries, activating the environment, and setting up paths, you can run each model using the following bash scripts:
  ```bash
 sh ./scripts/SPDNet.sh
 sh ./scripts/BiLSTM.sh
 sh ./scripts/Transformer.sh
-sh ./scripts/PatchTST.sh
---- 
-📊 Run the Models
+sh ./scripts/PatchTST.sh 
+---
+
+📊 Results
 The output of each experiment can be found in the following folders:
 
-## 📂 Scripts
-- Contains:
-  - Hyperparameters used during training
-  - Real-time monitoring during training
-  - Final outputs of the models
-
-### 📁 results/
-- Contains:
-  - All forecasted and true values in `.npy` format
-  - Example files: `pred.npy`, `true.npy`, etc.
-
-### 📁 test_results/
-- Contains:
-  - Visualizations of the forecasting results
-  - Plots comparing actual vs. predicted values
+📁 logs/
+Contains:
+Hyperparameters used during training
+Real-time monitoring during training
+Final outputs of the models
+📁 results/
+Contains:
+All forecasted and true values in .npy format
+Example files: pred.npy, true.npy, etc.
+📁 test_results/
+Contains:
+Visualizations of the forecasting results
+Plots comparing actual vs. predicted values
