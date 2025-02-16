@@ -6,8 +6,8 @@
 - [Repository Tutorials](#repository-tutorials)
 - [Requirements and Running](#requirements-and-running)
 - [Outputs and Results](#outputs-and-results)
-- [Data Set](#date_set)
-- [Arguments and Parameters](#Arguments_Parameters)
+- [Data Set](#data-set)
+- [Arguments and Parameters](#arguments-and-parameters)
 
 ---
 
@@ -140,6 +140,7 @@ Contains:
 Electricity load demand data, along with weather information, are included in the `Dataset` folder.
 
 ---
+
 ## Arguments and Parameters
 All model parameter definitions and arguments are provided in `arguments.py`.
 
