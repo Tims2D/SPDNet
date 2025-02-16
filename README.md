@@ -123,19 +123,21 @@ sh ./scripts/BiLSTM.sh
 sh ./scripts/Transformer.sh
 sh ./scripts/PatchTST.sh
 
-📊 Results
+## 📊 Results
 The output of each experiment can be found in the following folders:
 
-📁 logs/ → Contains:
+### 📁 logs/
+- Contains:
+  - Hyperparameters used during training
+  - Real-time monitoring during training
+  - Final outputs of the models
 
-Hyperparameters used during training
-Real-time monitoring during training
-Final outputs of the models
-📁 results/ → Contains:
+### 📁 results/
+- Contains:
+  - All forecasted and true values in `.npy` format
+  - Example files: `pred.npy`, `true.npy`, etc.
 
-All forecasted and true values in .npy format
-Example files: pred.npy, true.npy, etc.
-📁 test_results/ → Contains:
-
-Visualizations of the forecasting results
-Plots comparing actual vs. predicted values
+### 📁 test_results/
+- Contains:
+  - Visualizations of the forecasting results
+  - Plots comparing actual vs. predicted values
