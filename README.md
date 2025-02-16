@@ -110,10 +110,6 @@ Follow these steps to set up and run the Models.
 ## 🔹 **1. Recommended Environment**
 - **Python Version:** It is recommended to use **Python 3.10**.
 - **Virtual Environment:** Highly recommended to create a virtual environment:
-  ```bash
-  python -m venv spdnet_env
-  source spdnet_env/bin/activate  # On macOS/Linux
-  spdnet_env\Scripts\activate  # On Windows
 ## 🔹 **2. Install Required Packages**
 After setting up the virtual environment, install the necessary libraries using:
 pip install -r requirements.txt
