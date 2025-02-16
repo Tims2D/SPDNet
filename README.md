@@ -2,9 +2,14 @@
 
 **SPDNet** is a deep learning framework designed for **individual residential electricity demand forecasting**. The model effectively captures intricate temporal variations, including multiple seasonalities, periodicities, and abrupt fluctuations, using **Seasonal-Trend Decomposition Module (STDM)** and **Periodical Decomposition Module (PDM).**
 
+## Table of Contents
+- [Repository Tutorials](#repository-tutorials)
+- [Requirements and Running](#requirements-and-running)
+- [Outputs and Results](#outputs-and-results)
+
 ---
 
-##  Repository Structure
+## Repository Tutorials
 
 ### 📁 Data Provider**
 This folder contains scripts for **data preprocessing** and **loading datasets** for training and inference.
