@@ -135,6 +135,7 @@ Contains:
 - Visualizations of the forecasting results
 - Plots comparing actual vs. predicted values
 ---  
+
 ## Data Set
 Electricity load demand data, along with weather information, are included in the `Dataset` folder.
 
