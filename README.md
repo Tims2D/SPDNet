@@ -102,38 +102,35 @@ The `scripts` folder contains **shell scripts (`.sh` files)** for **defining mod
 
 Follow these steps to set up and run the Models.
 
-## 🔹 **1. Recommended Environment**
+### 🔹 **1. Recommended Environment**
 - **Python Version:** It is recommended to use **Python 3.10**.
 - **Virtual Environment:** Highly recommended to create a virtual environment:
-## 🔹 **2. Install Required Packages**
+### 🔹 **2. Install Required Packages**
 After setting up the virtual environment, install the necessary libraries using:
 
 pip install -r requirements.txt
 
-## 🔹 **3. Run the Models**
-
-### 🔹 **Usage**
-- These scripts allow **quick execution** of experiments without modifying the Python files.
+### 🔹 **3. Run the Models**
 - Simply **run the scripts** in a terminal using:
   ```bash
   sh ./scripts/SPDNet.sh
   sh ./scripts/Bilstm.sh
 
 ---
-# 📊 Results
+## 📊 outputs-and-results
 
 The output of each experiment can be found in the following folders:
 
 ## 📂 logs
 Contains:
-Hyperparameters used during training
-Real-time monitoring during training
-Final outputs of the models
+- Hyperparameters used during training
+- Real-time monitoring during training
+- Final outputs of the models
 ## 📂 results
 Contains:
-All forecasted and true values in .npy format
-Example files: pred.npy, true.npy, etc.
+- All forecasted and true values in .npy format
+- Example files: pred.npy, true.npy, etc.
 ## 📂 test_results
 Contains:
-Visualizations of the forecasting results
-Plots comparing actual vs. predicted values
+- Visualizations of the forecasting results
+- Plots comparing actual vs. predicted values
