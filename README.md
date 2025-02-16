@@ -85,6 +85,22 @@ These modules are **imported into the models** for efficient time series forecas
 - `Attention.py` → Defines **multi-head attention** mechanisms used in transformer-based models.
 - `PositionalEncoding.py` → Provides **time encoding** to preserve the temporal order in forecasting models.
 
+---
+---
+
+## 📂 Scripts
+The `scripts` folder contains **shell scripts (`.sh` files)** for **defining model parameters**. For example: 
+
+- `Conv2DLSTM.sh` → contains parameters of the **Conv2DLSTM model** for training and evaluation.
+
+
+
+### 🔹 **Usage**
+- These scripts allow **quick execution** of experiments without modifying the Python files.
+- Simply **run the scripts** in a terminal using:
+  ```bash
+  bash run_experiment.sh
+
 
 
 ## 📜 Getting Started
