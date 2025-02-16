@@ -1,10 +1,5 @@
 # SPDNet: Seasonal-Periodic Decomposition Network for Advanced Residential Demand Forecasting
 
-**SPDNet** is a deep learning framework designed for **individual residential electricity demand forecasting**.  
-
-
-# SPDNet: Seasonal-Periodic Decomposition Network for Advanced Residential Demand Forecasting
-
 **SPDNet** is a deep learning framework designed for **individual residential electricity demand forecasting**. The model effectively captures intricate temporal variations, including multiple seasonalities, periodicities, and abrupt fluctuations, using **Seasonal-Trend Decomposition Module (STDM)** and **Periodical Decomposition Module (PDM).**
 
 ---
