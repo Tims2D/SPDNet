@@ -4,9 +4,9 @@
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
-### **1. Data Provider**
+### 📁 Data Provider**
 This folder contains scripts for **data preprocessing** and **loading datasets** for training and inference.
 
 #### 🔹 `data_loader.py`
@@ -20,7 +20,7 @@ This folder contains scripts for **data preprocessing** and **loading datasets**
 
 ---
 
-### **2. Experiment (exp)**
+### 📁 Experiment (exp)**
 The **`exp`** folder is responsible for **forecasting electricity demand and selecting models** for evaluation. It contains two key scripts:
 
 #### 🔹 `exp_basic.py`
@@ -36,8 +36,6 @@ The **`exp`** folder is responsible for **forecasting electricity demand and sel
 - Generates and saves **forecasting results**, including predictions and evaluation metrics (MSE, MAE, RMSE).
 
 ---
----
-
 ## 📂 Models
 The **`models`** folder contains various deep learning architectures used in this study. These models are responsible for learning patterns from electricity demand data and generating predictions. 
 
