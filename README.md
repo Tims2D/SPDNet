@@ -78,8 +78,8 @@ SPDNet is benchmarked against various **traditional, advanced, and state-of-the-
 
 ---
 ## 📂 Layers
-The `layers` folder contains essential modules that serve as **building blocks** for the models in this study.For example:
-- These modules are **imported into the models** for efficient time series forecasting.
+The `layers` folder contains essential modules that serve as **building blocks** for the models in this study.
+These modules are **imported into the models** for efficient time series forecasting. .For example:
 - `Conv_Blocks.py` → Called in the **TimesNet** model to process **2D tensors**.
 - `Transformer_EncDec.py` → Consists of **encoder-decoder** architecture for transformer-based models.
 - `Attention.py` → Defines **multi-head attention** mechanisms used in transformer-based models.
