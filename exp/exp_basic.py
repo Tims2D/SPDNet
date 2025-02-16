@@ -1,13 +1,13 @@
 import os
 import torch
-from models import OurModel, LSTM, RNN, GRU, BiLSTM,  ConvLSTM, ResLSTM, Conv2DLSTM, Times2D_Final, Times2D_Timmixer,iTransformer, Transformer, Informer,Times2D_3parts, TimeMixer, Crossformer, DLinear, Real_FITS, ModernTCN, HDMixer, SparseTSF, TimesNet, PatchTST, Times2D_3parts_FFT, GRU
+from models import SPDNet, LSTM, RNN, GRU, BiLSTM,  ConvLSTM, ResLSTM, Conv2DLSTM, Times2D_Final, Times2D_Timmixer,iTransformer, Transformer, Informer,Times2D_3parts, TimeMixer, Crossformer, DLinear, Real_FITS, ModernTCN, HDMixer, SparseTSF, TimesNet, PatchTST, Times2D_3parts_FFT, GRU
             
 
 class Exp_Basic(object):
     def __init__(self, args):
         self.args = args
         self.model_dict = {
-            'OurModel': OurModel,
+            'SPDNet': SPDNet,
             'LSTM': LSTM,
             'RNN': RNN,
             'GRU': GRU,
@@ -16,21 +16,14 @@ class Exp_Basic(object):
             'ConvLSTM': ConvLSTM,
             'Conv2DLSTM': Conv2DLSTM,
             'ResLSTM': ResLSTM,
-            'Times2D_Final':Times2D_Final,
-            'Times2D_Timmixer':Times2D_Timmixer,
             'iTransformer': iTransformer,
             'Informer' : Informer,
             'Times2D_3parts' : Times2D_3parts,
             'TimeMixer': TimeMixer,
             'Crossformer': Crossformer,
             'DLinear': DLinear,
-            'Real_FITS': Real_FITS, 
-            'ModernTCN': ModernTCN,
-            'HDMixer' : HDMixer,
-            'SparseTSF': SparseTSF,
             'TimesNet': TimesNet,
             'PatchTST': PatchTST, 
-            'Times2D_3parts_FFT': Times2D_3parts_FFT,
             'GRU' : GRU,
         }
         # 
