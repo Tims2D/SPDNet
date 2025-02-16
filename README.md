@@ -129,16 +129,16 @@ pip install -r requirements.txt
 
 The output of each experiment can be found in the following folders:
 
-## 📂 logs/
+## 📂 logs
 Contains:
 Hyperparameters used during training
 Real-time monitoring during training
 Final outputs of the models
-## 📂 results/
+## 📂 results
 Contains:
 All forecasted and true values in .npy format
 Example files: pred.npy, true.npy, etc.
-## 📂 test_results/
+## 📂 test_results
 Contains:
 Visualizations of the forecasting results
 Plots comparing actual vs. predicted values
