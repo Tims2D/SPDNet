@@ -122,11 +122,12 @@ sh ./scripts/SPDNet.sh
 sh ./scripts/BiLSTM.sh
 sh ./scripts/Transformer.sh
 sh ./scripts/PatchTST.sh
----
+```bash
+--- 
 ## 📊 Results
 The output of each experiment can be found in the following folders:
 
-### 📁 logs/
+## 📂 Scripts
 - Contains:
   - Hyperparameters used during training
   - Real-time monitoring during training
