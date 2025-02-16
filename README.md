@@ -117,14 +117,13 @@ pip install -r requirements.txt
 
 ## 🔹 **3. Run the Models**
 After installing the required libraries, activating the environment, and setting up paths, you can run each model using the following bash scripts:
-```bash
+ ```bash
 sh ./scripts/SPDNet.sh
 sh ./scripts/BiLSTM.sh
 sh ./scripts/Transformer.sh
 sh ./scripts/PatchTST.sh
-```bash
 --- 
-## 📊 Results
+📊 Run the Models
 The output of each experiment can be found in the following folders:
 
 ## 📂 Scripts
