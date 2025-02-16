@@ -6,6 +6,8 @@
 - [Repository Tutorials](#repository-tutorials)
 - [Requirements and Running](#requirements-and-running)
 - [Outputs and Results](#outputs-and-results)
+- [Data Set](#date_set)
+- [Arguments and Parameters](#Arguments_Parameters)
 
 ---
 
@@ -117,20 +119,26 @@ pip install -r requirements.txt
   sh ./scripts/Bilstm.sh
 
 ---
-## 📊 outputs-and-results
-
+## 📊 Outputs and Results
 The output of each experiment can be found in the following folders:
-
-## 📂 logs
+### 📂 logs
 Contains:
 - Hyperparameters used during training
 - Real-time monitoring during training
 - Final outputs of the models
-## 📂 results
+### 📂 results
 Contains:
 - All forecasted and true values in .npy format
 - Example files: pred.npy, true.npy, etc.
-## 📂 test_results
+### 📂 test_results
 Contains:
 - Visualizations of the forecasting results
 - Plots comparing actual vs. predicted values
+  
+## Data Set
+Electricity load demand data, along with weather information, are included in the `Dataset` folder.
+
+## Arguments and Parameters
+All model parameter definitions and arguments are provided in `arguments.py`.
+
+
