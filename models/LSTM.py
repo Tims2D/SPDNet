@@ -43,7 +43,8 @@ class Model(nn.Module):
         
         # Project the LSTM output to the desired output dimension
         out = self.projection(lstm_out[:, -self.pred_len:, :])    # out shape = [B, Pred_len, enc_in]
-        out = out.permute(0,2,1)                                  # out shape = [B, enc_in, Pred_len]
+        out = out.permute(0,2,1)
         if self.task_name == 'Multivariate_forecasting':
-            out = out[:, -1:, :]  # [B, 1, Pred_len]
+            out = out[:, -1:, :]  
+            out = out.permute(0,2,1) # [B, Pred_len, 1]
         return out
