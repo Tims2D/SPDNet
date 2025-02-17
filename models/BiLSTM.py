@@ -44,4 +44,5 @@ class Model(nn.Module):
         out = out.permute(0,2,1)                                  # out shape = [B, enc_in, Pred_len]
         if self.task_name == 'Multivariate_forecasting':
             out = out[:, -1:, :]  # [B, 1, Pred_len]
+            out = out.permute(0,2,1)# [B, 1, Pred_len]
         return out
