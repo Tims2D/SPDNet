@@ -9,6 +9,13 @@
 </p>
 <p align="center"><i>Forecasted and actual electricity demand for Load 1 at sequence length S=96 and prediction horizon P=96. Legends are shown only in the first subplot for clarity.</i></p>
 
+## 📊 Performance Metrics
+
+<p align="center">
+  <img src="assets/Table.svg" alt="SPDNet Performance Table" width="80%">
+</p>
+<p align="center"><i>Performance comparison of SPDNet with baseline models in terms of MSE and MAE across different prediction horizons.</i></p>
+
 ## Table of Contents
 - [Repository Tutorials](#repository-tutorials)
 - [Requirements and Running](#requirements-and-running)
